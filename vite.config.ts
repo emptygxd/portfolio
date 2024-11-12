@@ -15,4 +15,5 @@ export default defineConfig({
       shared: "/src/shared/index.ts",
     },
   },
+  base: "/portfolio/",
 });
