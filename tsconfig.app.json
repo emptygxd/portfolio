@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": false,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "assets": ["src/assets/index.ts"],
+      "app": ["src/app/index.ts"],
+      "pages": ["src/pages/index.ts"],
+      "widgets": ["src/widgets/index.ts"],
+      "features": ["src/features/index.ts"],
+      "entities": ["src/entities/index.ts"],
+      "shared": ["src/shared/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

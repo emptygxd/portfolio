@@ -1,0 +1,30 @@
+.skill__item:has(.html):hover {
+  box-shadow: 0 0 10px var(--html-hover-color);
+}
+.skill__item:has(.css):hover {
+  box-shadow: 0 0 10px var(--css-hover-color);
+}
+.skill__item:has(.sass):hover {
+  box-shadow: 0 0 10px var(--sass-hover-color);
+}
+.skill__item:has(.tailwind):hover {
+  box-shadow: 0 0 10px var(--tailwind-hover-color);
+}
+.skill__item:has(.javascript):hover {
+  box-shadow: 0 0 10px var(--js-hover-color);
+}
+.skill__item:has(.typescript):hover {
+  box-shadow: 0 0 10px var(--ts-hover-color);
+}
+.skill__item:has(.react):hover {
+  box-shadow: 0 0 10px var(--react-hover-color);
+}
+.skill__item:has(.redux):hover {
+  box-shadow: 0 0 10px var(--redux-hover-color);
+}
+.skill__item:has(.github):hover {
+  box-shadow: 0 0 10px var(--git-hover-color);
+}
+.skill__item:has(.figma):hover {
+  box-shadow: 0 0 10px var(--figma-hover-color);
+}

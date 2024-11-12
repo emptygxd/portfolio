@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-color;
+  }
+  .text-color {
+    @apply text-white;
+  }
+
+  .menu-text {
+    @apply text-base;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+}
+
+:root {
+  --primary-color: #bd01ff;
+  --secondary-color: #ffffff;
+  --accent-color: #01ffd7;
+  --complementary-color: #ff7f01;
+  --background-color: #1a1a1a;
+  --black: #000000;
+  --white: #ffffff;
+  --link-color: #ffcc00;
+  --border-divider-color: #333333;
+
+  --html-hover-color: #fc490b66;
+  --css-hover-color: #23609166;
+  --sass-hover-color: #cc669966;
+  --tailwind-hover-color: #60dafa66;
+  --js-hover-color: #ffdf0066;
+  --ts-hover-color: #3178c666;
+  --react-hover-color: #00ddd866;
+  --redux-hover-color: #764abc66;
+  --git-hover-color: #5c6bc066;
+  --figma-hover-color: #bd01ff66;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}

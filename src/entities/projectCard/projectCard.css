@@ -1,0 +1,220 @@
+.project__steps-big-top {
+  width: 12px;
+  height: 24px;
+
+  left: 24px;
+  top: 2px;
+
+  z-index: 1;
+}
+
+.project__steps-small-top {
+  width: 12px;
+  height: 12px;
+
+  left: 34px;
+  top: 14px;
+
+  z-index: 2;
+}
+
+.project__steps-big-bot {
+  width: 12px;
+  height: 24px;
+
+  right: 24px;
+  bottom: 104px;
+
+  z-index: 1;
+}
+
+.project__steps-small-bot {
+  width: 12px;
+  height: 12px;
+
+  right: 34px;
+  bottom: 104px;
+
+  z-index: 2;
+}
+
+.project__card:first-child .project__steps-big-top {
+  display: none;
+}
+
+.project__card:first-child .project__steps-small-top {
+  display: none;
+}
+
+.project__card:nth-child(2n) {
+  flex-direction: row-reverse;
+  margin-left: 40px;
+  margin-top: -80px;
+}
+
+.project__card:nth-child(2n) .project__skills {
+  padding-left: 12px;
+  justify-content: flex-start;
+}
+
+.project__card:nth-child(2n) .project__border {
+  border-left: 2px solid var(--primary-color);
+  border-right: none;
+  margin-right: -2px;
+  margin-top: 5rem;
+
+  z-index: 1;
+}
+
+.project__card:nth-child(2n) .project__steps-big-top {
+  border-left: 2px solid var(--primary-color);
+  right: 24px;
+  left: auto;
+}
+
+.project__card:nth-child(2n) .project__steps-small-top {
+  right: 34px;
+  left: auto;
+  border-right: none;
+  border-left: 2px solid var(--primary-color);
+}
+
+.project__card:nth-child(2n) .project__steps-big-bot {
+  border-right: 2px solid var(--primary-color);
+  border-left: none;
+
+  left: 22px;
+  bottom: 40px;
+}
+
+.project__card:nth-child(2n) .project__steps-small-bot {
+  border-right: 2px solid var(--primary-color);
+  border-left: none;
+
+  left: 32px;
+  bottom: 40px;
+}
+
+.project__card:last-child .project__steps-big-bot {
+  display: none;
+}
+
+.project__card:last-child .project__steps-small-bot {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .project__card:nth-child(2n) {
+    margin-top: -50px;
+  }
+
+  .project__card:nth-child(2n) .project__border {
+    margin-top: 3rem;
+  }
+
+  .project__steps-big-bot {
+    bottom: 72px;
+  }
+
+  .project__steps-small-bot {
+    bottom: 72px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project__card:nth-child(2n) {
+    margin-top: -50px;
+  }
+
+  .project__card:nth-child(2n) .project__border {
+    margin-top: 2.5rem;
+  }
+
+  .project__steps-big-top {
+    width: 8px;
+    height: 16px;
+
+    top: 10px;
+  }
+
+  .project__steps-small-top {
+    width: 8px;
+    height: 8px;
+
+    left: 32px;
+    top: 18px;
+  }
+
+  .project__steps-big-bot {
+    width: 8px;
+    height: 16px;
+
+    bottom: 60px;
+  }
+
+  .project__steps-small-bot {
+    width: 8px;
+    height: 8px;
+
+    right: 30px;
+    bottom: 60px;
+  }
+
+  .project__card:nth-child(2n) .project__steps-big-bot {
+    bottom: 32px;
+  }
+
+  .project__card:nth-child(2n) .project__steps-small-bot {
+    bottom: 32px;
+  }
+
+  .project__card:nth-child(2n) .project__steps-small-top {
+    right: 32px;
+  }
+
+  .project__card:nth-child(2n) .project__steps-small-bot {
+    left: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .project__card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project__steps-big-top,
+  .project__steps-small-top,
+  .project__steps-big-bot,
+  .project__steps-small-bot {
+    display: none;
+  }
+
+  .project__card img {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide .project__border {
+    padding: 3px 6px;
+    margin-top: 8px;
+  }
+
+  .project__skills ul {
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .project__border h3 {
+    font-size: 1rem;
+  }
+
+  .project__border a {
+    font-size: 0.875rem;
+  }
+
+  .project__border a span {
+    font-size: 0.875rem;
+  }
+}

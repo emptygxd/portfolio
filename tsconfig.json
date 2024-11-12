@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "assets": ["src/assets/index.ts"],
+      "app": ["src/app/index.ts"],
+      "pages": ["src/pages/index.ts"],
+      "widgets": ["src/widgets/index.ts"],
+      "features": ["src/features/index.ts"],
+      "entities": ["src/entities/index.ts"],
+      "shared": ["src/shared/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

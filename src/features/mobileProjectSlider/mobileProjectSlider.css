@@ -1,0 +1,7 @@
+.swiper-pagination {
+  bottom: -5px !important;
+}
+
+.swiper-slide .project__card {
+  margin-left: 0;
+}

@@ -1,0 +1,19 @@
+.menu-text {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-text::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.2s ease;
+}
+
+.menu-text:hover::before {
+  width: 100%;
+}

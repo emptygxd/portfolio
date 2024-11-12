@@ -1,0 +1,9 @@
+export { default as cssImg } from "./css-3.png";
+export { default as figmaImg } from "./figma.png";
+export { default as htmlImg } from "./html.png";
+export { default as jsImg } from "./js.png";
+export { default as reactImg } from "./react.svg";
+export { default as reduxImg } from "./redux.png";
+export { default as sassImg } from "./sass.png";
+export { default as tailwindImg } from "./tailwind.svg";
+export { default as tsImg } from "./typescript.png";
