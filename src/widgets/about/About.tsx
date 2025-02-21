@@ -10,7 +10,8 @@ export const About = () => {
           Обо мне
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-10 card__container xl:gap-6 sm:flex-col">
+        <div className="card__container flex flex-wrap justify-center gap-10  xl:gap-6 sm:flex-col">
+          {/* card__container */}
           {ABOUT_TEXT.map((element, index) => (
             <AboutItem key={`${element.text}_${index}`} text={element.text} />
           ))}

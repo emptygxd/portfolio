@@ -1,0 +1,113 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__container *:nth-of-type(1) .card {
+  width: 26rem;
+}
+.card__container *:nth-of-type(2) .card {
+  width: 40rem;
+}
+.card__container *:nth-of-type(3) .card {
+  width: 35rem;
+}
+
+@media (max-width: 1280px) {
+  .card__container *:nth-of-type(1) .card {
+    width: 20rem;
+  }
+  .card__container *:nth-of-type(2) .card {
+    width: 35rem;
+  }
+  .card__container *:nth-of-type(3) .card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card__container *:nth-of-type(1) .card {
+    width: 15rem;
+  }
+  .card__container *:nth-of-type(2) .card {
+    width: 25rem;
+  }
+  .card__container *:nth-of-type(3) .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card__container *:nth-of-type(1) .card {
+    width: 13rem;
+  }
+  .card__container *:nth-of-type(2) .card {
+    width: 18rem;
+  }
+  .card__container *:nth-of-type(3) .card {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .card__container .card {
+    width: 18rem;
+  }
+}
+
+.card__container figure:nth-of-type(1) {
+  width: 26rem;
+}
+.card__container figure:nth-of-type(2) {
+  width: 40rem;
+}
+.card__container figure:nth-of-type(3) {
+  width: 35rem;
+}
+
+@media (max-width: 1280px) {
+  .card__container figure:nth-of-type(1) {
+    width: 20rem;
+  }
+  .card__container figure:nth-of-type(2) {
+    width: 35rem;
+  }
+  .card__container figure:nth-of-type(3) {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card__container figure:nth-of-type(1) {
+    width: 15rem;
+  }
+  .card__container figure:nth-of-type(2) {
+    width: 25rem;
+  }
+  .card__container figure:nth-of-type(3) {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card__container figure:nth-of-type(1) {
+    width: 13rem;
+  }
+  .card__container figure:nth-of-type(2) {
+    width: 18rem;
+  }
+  .card__container figure:nth-of-type(3) {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .card__container {
+    width: 18rem;
+  }
+}
